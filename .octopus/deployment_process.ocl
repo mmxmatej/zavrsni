@@ -5,7 +5,7 @@ step "deploy-a-release" {
         action_type = "Octopus.DeployRelease"
         properties = {
             Octopus.Action.DeployRelease.DeploymentCondition = "Always"
-            Octopus.Action.DeployRelease.ProjectId = "završni"
+            Octopus.Action.DeployRelease.ProjectId = "novi-projekt"
         }
     }
 }
